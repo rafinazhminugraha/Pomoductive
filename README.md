@@ -1,8 +1,8 @@
-# 🍅 Focusly - Deep Work Pomodoro Timer
+# Pomoductive - Deep Work Pomodoro Timer
 
 A minimal, elegant Pomodoro timer designed for deep work and mental clarity. Built with Next.js 15, TypeScript, and Tailwind CSS.
 
-![Focusly Screenshot](./docs/screenshot.png)
+![Pomoductive Screenshot](./docs/screenshot.png)
 
 ## ✨ Features
 
@@ -31,13 +31,13 @@ A minimal, elegant Pomodoro timer designed for deep work and mental clarity. Bui
   - Full controls: Start, Pause, Resume, Reset
 
 ### Additional Features
-- 📊 **Session Counter** - Track completed focus sessions today
-- ⭕ **Circular Progress Ring** - Visual progress indicator with glow effects
-- 🎨 **Dynamic Themes** - Colors shift based on focus vs break state
-- 💬 **Motivational Messages** - Encouragement based on session count
-- ✨ **Elegant Animations** - Subtle transitions that don't distract
+- **Session Counter** - Track completed focus sessions today
+- **Circular Progress Ring** - Visual progress indicator with glow effects
+- **Dynamic Themes** - Colors shift based on focus vs break state
+- **Motivational Messages** - Encouragement based on session count
+- **Elegant Animations** - Subtle transitions that don't distract
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+ 
@@ -75,7 +75,7 @@ Place the following audio files in `/public/audio/`:
 - [Freesound](https://freesound.org/) - Sound effects
 - [Free Music Archive](https://freemusicarchive.org/) - Various genres
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -102,7 +102,7 @@ src/
     └── index.ts         # TypeScript type definitions
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 ### Timer Logic (`useTimer` hook)
 The timer uses React state and `setInterval` for accurate countdown:
@@ -124,7 +124,7 @@ The timer uses React state and `setInterval` for accurate countdown:
 - **ModeSelector**: Template cards + custom duration inputs
 - **SessionCounter**: Progress dots + motivational feedback
 
-## 🎨 Design Decisions
+## Design Decisions
 
 ### Why This Aesthetic?
 - **Dark theme**: Reduces eye strain during long focus sessions
@@ -138,7 +138,7 @@ The timer uses React state and `setInterval` for accurate countdown:
 - **Progressive disclosure**: Mode selector fades when timer is active
 - **Feedback everywhere**: Visual confirmation for all interactions
 
-## 🚀 Deployment
+## Deployment
 
 ### Deploy to Vercel
 
@@ -152,7 +152,7 @@ npx vercel
 
 Or connect your GitHub repo to [Vercel](https://vercel.com) for automatic deployments.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 15 (App Router)
 - **Language**: TypeScript
@@ -160,10 +160,6 @@ Or connect your GitHub repo to [Vercel](https://vercel.com) for automatic deploy
 - **Fonts**: Inter (UI), JetBrains Mono (timer)
 - **Audio**: Web Audio API via HTMLAudioElement
 - **State**: React hooks (no external state library)
-
-## 📝 License
-
-MIT License - feel free to use this for personal or commercial projects.
 
 ---
 
